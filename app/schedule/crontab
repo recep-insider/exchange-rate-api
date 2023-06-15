@@ -1,0 +1,1 @@
+* * * * * root /usr/local/bin/php -q -f /var/www/artisan schedule:run — no-ansi >> /var/log/cron.log 2>&1
