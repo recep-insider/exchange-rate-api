@@ -1,7 +1,7 @@
 ## Build Project
 You should have Docker for build this project. If you have docker application you can follow these steps:
 - cd exchange-rate-api
-- docker-compose up -d
+- docker-compose up -d --build
 - docker exec -it app bash
 - php artisan migrate
 
